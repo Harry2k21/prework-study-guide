@@ -3,11 +3,12 @@ console.log(topics);
 
 // Main Variables which link to all console.log s
 var topic = "JavaScript";
+var shape = "circle";
 
 // Arrays of Data
 var shapes = ["circle", "square", "triangle", "pentagon"];
 var studentInfo = ["Lucy", true, 22];
-var shape = "circle";
+
 
 console.log(shapes[2]);
 console.log(studentInfo[2]);
@@ -63,21 +64,29 @@ var topics = ["HTML","CSS","JavaScript","Git"]
 for( z = 0; z < topics.length; z++) {
   console.log(topics[z]);}
 
-// if (topic === "HTML") {
-// console.log("Let's study HTML!");
-// }
-// else if (topic === "CSS") {
-// console.log("Let's code in CSS!");
-// }
-// else if (topic === "JavaScript") {
-// console.log("Let's code in JavaScript!");
-// }
-// else if (topic === "Python") {
-// console.log("Let's Code in Python");
-// }
-// else if (topic === "Git") {
-// console.log("Let's utilise Git!");
-// } else { 
-// console.log("Please Try Again(Re-Enter the value)");
+if ( shape === "circle")
+{console.log("I love circles!");}
+ else {console.log("Please Try Again ;P");}
 
-// }
+
+
+
+
+if (topic === "HTML") {
+console.log("Let's study HTML!");
+}
+else if (topic === "CSS") {
+console.log("Let's code in CSS!");
+}
+else if (topic === "JavaScript") {
+console.log("Let's code in JavaScript!");
+}
+else if (topic === "Python") {
+console.log("Let's Code in Python");
+}
+else if (topic === "Git") {
+console.log("Let's utilise Git!");
+} else { 
+console.log("Please Try Again(Re-Enter the value)");
+
+}
