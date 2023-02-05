@@ -64,6 +64,13 @@ var topics = ["HTML","CSS","JavaScript","Git"]
 for( z = 0; z < topics.length; z++) {
   console.log(topics[z]);}
 
+// if statement are conditional statements were you -
+// 1st define a var then if ( var === "var-name" ) 
+// and initilise it ;
+// 2nd give it an output condition to meet 
+// {console.log("My Condition was met") and initiilise it;}
+
+
 if ( shape === "circle")
 {console.log("I love circles!");}
  else {console.log("Please Try Again ;P");}
@@ -90,3 +97,7 @@ console.log("Let's utilise Git!");
 console.log("Please Try Again(Re-Enter the value)");
 
 }
+
+// Define a Funcation -> Call a Function in order for it to work
+// Code declaration -> Code block inside the declaration
+// To Call a Function function-name();
