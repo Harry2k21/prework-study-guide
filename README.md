@@ -29,7 +29,7 @@ MIT License
 ## Badges
 
 ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-![badmath(/github/license/:user/:repo)
+
 
 
 ## Features
