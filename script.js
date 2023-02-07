@@ -1,4 +1,6 @@
-var topics = "HTML, Python, CSS, Git, JavaScript";
+///var topics = "HTML, Python, CSS, Git, JavaScript";
+
+
 console.log(topics);
 
 // Main Variables which link to all console.log s
@@ -59,12 +61,12 @@ console.log(shapes[x]);
 // console.log(shapes)
 
 // Array
-var topics = ["HTML","CSS","JavaScript","Git"]
+////var topics = ["HTML","CSS","JavaScript","Git"]
 // For Loop
-for( z = 0; z < topics.length; z++) {
-  console.log(topics[z]);}
+//// for( z = 0; z < topics.length; z++) {
+////   console.log(topics[z]);}
 
-// if statement are conditional statements were you -
+// Conditional statements are were you -
 // 1st define a var then if ( var === "var-name" ) 
 // and initilise it ;
 // 2nd give it an output condition to meet 
@@ -75,10 +77,19 @@ if ( shape === "circle")
 {console.log("I love circles!");}
  else {console.log("Please Try Again ;P");}
 
+// array
 
+////var topics = ['HTML', 'CSS', 'Git', 'JavaScript'];
 
+// function listTopics() {
+//   for(var x = 0; x < topics.length; x++)
+//   {console.log(topics[x]);}
+// }
 
+// listTopics();
 
+function selectTopic ()
+{
 if (topic === "HTML") {
 console.log("Let's study HTML!");
 }
@@ -97,7 +108,146 @@ console.log("Let's utilise Git!");
 console.log("Please Try Again(Re-Enter the value)");
 
 }
+}
+
+selectTopic();
 
 // Define a Funcation -> Call a Function in order for it to work
 // Code declaration -> Code block inside the declaration
 // To Call a Function function-name();
+
+function helloWorld() {
+  console.log("Hello Harry! I am a function!");
+}
+
+helloWorld();
+// 
+
+// var color = "green";
+// Conditional Statement which is Function
+
+// function favColor() {
+//   if  ( color === green)
+//   {console.log("My Favorite Colour is Green");
+//   } else {console.log("That didn't work!");}}
+
+
+
+// favColor();
+
+
+
+// For Loop which is wrapped in a Function
+// var topics = ["HTML", "CSS", "JavaScript", "Git"];
+
+// function listTopics() {
+//   for( var z = 0; z < topics.length; z++) 
+//   {console.log(topics[z]);}
+// }
+
+// listTopics();
+
+// In a for loop the first var x = number it will start running from normally 0 , var x = 0
+
+
+// For Loop
+
+var color = ["red","blue","green"]
+
+function randomColors() {
+for(var b = 0; b < color.length; b++)
+{
+  console.log(color[b]);
+}
+}
+
+randomColors();
+
+// Conditional Statement 
+//remember to initilise variables
+// When making conditional statements Start from if then else if and lastly else 
+// if ( var_name === var_name2 ) { take an action which will provide this output and initilise it}
+var color = "red";
+
+function favouriteColor()
+{
+if( color === "green" )
+ {console.log("My favourite color is Green!");}
+else if( color === "red" )
+ {console.log("My favourite color is Red!");}
+else if( color === "blue" )
+ {console.log("My favourite color is Blue!");}
+else {console.log("Try Again 👎")}
+}
+
+favouriteColor();
+
+console.log("/////////")
+console.log("/////////")
+console.log("/////////")
+console.log("/////////")
+console.log("/////////")
+
+///////
+
+///* means all items
+//// .length means how many it will go through
+//initilise the math.random then initilise the whole line 
+//var var_name = var_name_of_array[Math.floor(Math.random()* var_name.length)];
+
+
+
+
+
+/// topics[Math.floor(Math.random()* topics.length)];
+
+
+var topics = ['HTML','CSS','Git','Javascript'];
+var randomTopic = topics[Math.floor(Math.random()* topics.length)];
+
+function showTopics()
+{
+  for( var w = 0; w < topics.length; w++)
+  {
+    console.log(topics[w]);
+  }
+}
+
+
+
+
+
+// var topic = "CSS";
+
+function mainTopic()
+{
+  if(randomTopic === "HTML")
+  {
+    console.log("Let's learn HTML!");
+  }
+  else if(randomTopic === "CSS")
+  {
+    console.log("Let's learn CSS!")
+  }
+  else if(randomTopic === "Javascript")
+  {
+    console.log("Let's learn Javascript!")
+  }
+  else if(randomTopic === "Git")
+  {
+    console.log("Let's learn Git!")
+  }
+  else 
+  {
+    console.log("Fatal Mistake");
+  }
+}
+
+
+console.log("These are some of the technologies we learnt in the Pre Work Guide:");
+
+showTopics();
+
+console.log("Which subject should we learn first?")
+
+mainTopic();
